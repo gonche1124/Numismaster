@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AEF4F101E8353700043E713 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEF4F0F1E8353700043E713 /* AppDelegate.swift */; };
+		8AEF4F121E8353700043E713 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEF4F111E8353700043E713 /* ViewController.swift */; };
+		8AEF4F151E8353700043E713 /* Numismaster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8AEF4F131E8353700043E713 /* Numismaster.xcdatamodeld */; };
+		8AEF4F171E8353700043E713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AEF4F161E8353700043E713 /* Assets.xcassets */; };
+		8AEF4F1A1E8353700043E713 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AEF4F181E8353700043E713 /* Main.storyboard */; };
+		8AEF4F251E8353700043E713 /* NumismasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEF4F241E8353700043E713 /* NumismasterTests.swift */; };
+		8AEF4F301E8353700043E713 /* NumismasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEF4F2F1E8353700043E713 /* NumismasterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AEF4F211E8353700043E713 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AEF4F041E8353700043E713 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AEF4F0B1E8353700043E713;
+			remoteInfo = Numismaster;
+		};
+		8AEF4F2C1E8353700043E713 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AEF4F041E8353700043E713 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AEF4F0B1E8353700043E713;
+			remoteInfo = Numismaster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8AEF4F0C1E8353700043E713 /* Numismaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Numismaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AEF4F0F1E8353700043E713 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8AEF4F111E8353700043E713 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8AEF4F141E8353700043E713 /* Numismaster.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Numismaster.xcdatamodel; sourceTree = "<group>"; };
+		8AEF4F161E8353700043E713 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AEF4F191E8353700043E713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8AEF4F1B1E8353700043E713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AEF4F201E8353700043E713 /* NumismasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumismasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AEF4F241E8353700043E713 /* NumismasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumismasterTests.swift; sourceTree = "<group>"; };
+		8AEF4F261E8353700043E713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AEF4F2B1E8353700043E713 /* NumismasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumismasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AEF4F2F1E8353700043E713 /* NumismasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumismasterUITests.swift; sourceTree = "<group>"; };
+		8AEF4F311E8353700043E713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AEF4F091E8353700043E713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEF4F1D1E8353700043E713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEF4F281E8353700043E713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AEF4F031E8353700043E713 = {
+			isa = PBXGroup;
+			children = (
+				8AEF4F0E1E8353700043E713 /* Numismaster */,
+				8AEF4F231E8353700043E713 /* NumismasterTests */,
+				8AEF4F2E1E8353700043E713 /* NumismasterUITests */,
+				8AEF4F0D1E8353700043E713 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AEF4F0D1E8353700043E713 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AEF4F0C1E8353700043E713 /* Numismaster.app */,
+				8AEF4F201E8353700043E713 /* NumismasterTests.xctest */,
+				8AEF4F2B1E8353700043E713 /* NumismasterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AEF4F0E1E8353700043E713 /* Numismaster */ = {
+			isa = PBXGroup;
+			children = (
+				8AEF4F0F1E8353700043E713 /* AppDelegate.swift */,
+				8AEF4F111E8353700043E713 /* ViewController.swift */,
+				8AEF4F161E8353700043E713 /* Assets.xcassets */,
+				8AEF4F181E8353700043E713 /* Main.storyboard */,
+				8AEF4F1B1E8353700043E713 /* Info.plist */,
+				8AEF4F131E8353700043E713 /* Numismaster.xcdatamodeld */,
+			);
+			path = Numismaster;
+			sourceTree = "<group>";
+		};
+		8AEF4F231E8353700043E713 /* NumismasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AEF4F241E8353700043E713 /* NumismasterTests.swift */,
+				8AEF4F261E8353700043E713 /* Info.plist */,
+			);
+			path = NumismasterTests;
+			sourceTree = "<group>";
+		};
+		8AEF4F2E1E8353700043E713 /* NumismasterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8AEF4F2F1E8353700043E713 /* NumismasterUITests.swift */,
+				8AEF4F311E8353700043E713 /* Info.plist */,
+			);
+			path = NumismasterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AEF4F0B1E8353700043E713 /* Numismaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AEF4F341E8353700043E713 /* Build configuration list for PBXNativeTarget "Numismaster" */;
+			buildPhases = (
+				8AEF4F081E8353700043E713 /* Sources */,
+				8AEF4F091E8353700043E713 /* Frameworks */,
+				8AEF4F0A1E8353700043E713 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Numismaster;
+			productName = Numismaster;
+			productReference = 8AEF4F0C1E8353700043E713 /* Numismaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AEF4F1F1E8353700043E713 /* NumismasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AEF4F371E8353700043E713 /* Build configuration list for PBXNativeTarget "NumismasterTests" */;
+			buildPhases = (
+				8AEF4F1C1E8353700043E713 /* Sources */,
+				8AEF4F1D1E8353700043E713 /* Frameworks */,
+				8AEF4F1E1E8353700043E713 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AEF4F221E8353700043E713 /* PBXTargetDependency */,
+			);
+			name = NumismasterTests;
+			productName = NumismasterTests;
+			productReference = 8AEF4F201E8353700043E713 /* NumismasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8AEF4F2A1E8353700043E713 /* NumismasterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AEF4F3A1E8353700043E713 /* Build configuration list for PBXNativeTarget "NumismasterUITests" */;
+			buildPhases = (
+				8AEF4F271E8353700043E713 /* Sources */,
+				8AEF4F281E8353700043E713 /* Frameworks */,
+				8AEF4F291E8353700043E713 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AEF4F2D1E8353700043E713 /* PBXTargetDependency */,
+			);
+			name = NumismasterUITests;
+			productName = NumismasterUITests;
+			productReference = 8AEF4F2B1E8353700043E713 /* NumismasterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AEF4F041E8353700043E713 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Gonche;
+				TargetAttributes = {
+					8AEF4F0B1E8353700043E713 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					8AEF4F1F1E8353700043E713 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8AEF4F0B1E8353700043E713;
+					};
+					8AEF4F2A1E8353700043E713 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8AEF4F0B1E8353700043E713;
+					};
+				};
+			};
+			buildConfigurationList = 8AEF4F071E8353700043E713 /* Build configuration list for PBXProject "Numismaster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AEF4F031E8353700043E713;
+			productRefGroup = 8AEF4F0D1E8353700043E713 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AEF4F0B1E8353700043E713 /* Numismaster */,
+				8AEF4F1F1E8353700043E713 /* NumismasterTests */,
+				8AEF4F2A1E8353700043E713 /* NumismasterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AEF4F0A1E8353700043E713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AEF4F171E8353700043E713 /* Assets.xcassets in Resources */,
+				8AEF4F1A1E8353700043E713 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEF4F1E1E8353700043E713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEF4F291E8353700043E713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AEF4F081E8353700043E713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AEF4F121E8353700043E713 /* ViewController.swift in Sources */,
+				8AEF4F101E8353700043E713 /* AppDelegate.swift in Sources */,
+				8AEF4F151E8353700043E713 /* Numismaster.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEF4F1C1E8353700043E713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AEF4F251E8353700043E713 /* NumismasterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEF4F271E8353700043E713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AEF4F301E8353700043E713 /* NumismasterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AEF4F221E8353700043E713 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AEF4F0B1E8353700043E713 /* Numismaster */;
+			targetProxy = 8AEF4F211E8353700043E713 /* PBXContainerItemProxy */;
+		};
+		8AEF4F2D1E8353700043E713 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AEF4F0B1E8353700043E713 /* Numismaster */;
+			targetProxy = 8AEF4F2C1E8353700043E713 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AEF4F181E8353700043E713 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AEF4F191E8353700043E713 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AEF4F321E8353700043E713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8AEF4F331E8353700043E713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		8AEF4F351E8353700043E713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Numismaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gonche.Numismaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8AEF4F361E8353700043E713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Numismaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gonche.Numismaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8AEF4F381E8353700043E713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NumismasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gonche.NumismasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Numismaster.app/Contents/MacOS/Numismaster";
+			};
+			name = Debug;
+		};
+		8AEF4F391E8353700043E713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NumismasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gonche.NumismasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Numismaster.app/Contents/MacOS/Numismaster";
+			};
+			name = Release;
+		};
+		8AEF4F3B1E8353700043E713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NumismasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gonche.NumismasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Numismaster;
+			};
+			name = Debug;
+		};
+		8AEF4F3C1E8353700043E713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NumismasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gonche.NumismasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Numismaster;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AEF4F071E8353700043E713 /* Build configuration list for PBXProject "Numismaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AEF4F321E8353700043E713 /* Debug */,
+				8AEF4F331E8353700043E713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AEF4F341E8353700043E713 /* Build configuration list for PBXNativeTarget "Numismaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AEF4F351E8353700043E713 /* Debug */,
+				8AEF4F361E8353700043E713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8AEF4F371E8353700043E713 /* Build configuration list for PBXNativeTarget "NumismasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AEF4F381E8353700043E713 /* Debug */,
+				8AEF4F391E8353700043E713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8AEF4F3A1E8353700043E713 /* Build configuration list for PBXNativeTarget "NumismasterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AEF4F3B1E8353700043E713 /* Debug */,
+				8AEF4F3C1E8353700043E713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8AEF4F131E8353700043E713 /* Numismaster.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8AEF4F141E8353700043E713 /* Numismaster.xcdatamodel */,
+			);
+			currentVersion = 8AEF4F141E8353700043E713 /* Numismaster.xcdatamodel */;
+			path = Numismaster.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8AEF4F041E8353700043E713 /* Project object */;
+}
