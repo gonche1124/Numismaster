@@ -8,6 +8,7 @@
 
 import Cocoa
 
+//To erase comment
 class ViewController: NSViewController {
 
     override func viewDidLoad() {
